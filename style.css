@@ -27,6 +27,7 @@ main {
 
 input {
   background-color: #3b82f6;
+  box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.1);
   color: #fff;
 
   font-size: 1.4rem;
@@ -69,4 +70,49 @@ button {
   cursor: pointer;
 
   width: calc((100% - (3 * 0.5rem)) / 4);
+  box-shadow: 0px 6px 8px -3px rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out;
+}
+
+.add,
+.multiply,
+.subtract,
+.divide,
+.clear {
+  color: white;
+}
+
+.add {
+  background-color: oklch(69.6% 0.17 162.48);
+  border-bottom: 6px solid oklch(59.6% 0.17 162.48);
+}
+.multiply {
+  background-color: oklch(79.5% 0.184 86.047);
+  border-bottom: 6px solid oklch(69.5% 0.184 86.047);
+}
+.divide {
+  background-color: oklch(62.3% 0.214 259.815);
+  border-bottom: 6px solid oklch(52.3% 0.214 259.815);
+}
+.subtract {
+  background-color: oklch(64.5% 0.246 16.439);
+  border-bottom: 6px solid oklch(54.5% 0.246 16.439);
+}
+.clear {
+  background-color: oklch(37.2% 0.044 257.287);
+  border-bottom: 6px solid oklch(27.2% 0.044 257.287);
+}
+.special {
+  background-color: oklch(98% 0.00011 271.152);
+  border-bottom: 6px solid oklch(90% 0.00011 271.152);
+  color: oklch(14.5% 0 0 /0.6);
+}
+.digit {
+  background-color: oklch(87.2% 0.01 258.338);
+  border-bottom: 6px solid oklch(77.2% 0.01 258.338);
+  color: oklch(14.5% 0 0 /0.6);
+}
+
+button:active {
+  border: none;
 }
