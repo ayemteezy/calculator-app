@@ -35,7 +35,7 @@
 
 <h3 align="center">Calculator App</h3>
   <p align="center">
-  A functional desktop web calculator built as part of [The Odin Project](https://www.theodinproject.com/) curriculum. Features basic arithmetic, operation chaining, decimal support, and full keyboard accessibility.
+  A functional desktop web calculator built as part of The Odin Project curriculum. Features basic arithmetic, operation chaining, decimal support, and full keyboard accessibility.
     <br />
     <a href="https://github.com/ayemteezy/calculator-app"><strong>Explore the docs »</strong></a>
     <br />
